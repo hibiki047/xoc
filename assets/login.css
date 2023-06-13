@@ -1,0 +1,60 @@
+/* Login */
+
+:root {
+    /* As color in the */
+    --darkest-color: #3C4048;
+    --not-so-dark-color: #202123;
+    --middle-color: #B2B2B2;
+    --not-so-bright-color: #F2E7D5;
+    --brightest-color: #F7F7F7;
+}
+
+body {
+     background-image: url("../images/");
+     background-color: var(--darkest-color);
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: 0px auto;
+     width: 100%;
+     max-width: fit-content;
+}
+
+.container {
+    text-align: center;
+}
+
+.center_div {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.bg {
+    background-image: url("../images/");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.content {
+    align-content: center;
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+label[for] {
+    background: yellow;
+}
+
+body legend {
+    background: skyblue;
+}
+
+form {
+    position: center;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

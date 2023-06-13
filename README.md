@@ -1,2 +1,2 @@
 # xoc
-basic
+hello this is a basic website for tamoe
