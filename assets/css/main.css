@@ -46,11 +46,19 @@ body {
     background-repeat: no-repeat;
     background-size: content;
     position: relative;
-    width: 420px;
-    height: 420px;
+    width: 450px;
+    height: 636px;
     margin: 0px auto;
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+.ae {
+    background-image: url(../images/2.gif);
+    position: relative;
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
 }
 
 table {
