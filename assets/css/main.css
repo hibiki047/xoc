@@ -55,10 +55,11 @@ body {
 
 .ae {
     background-image: url(../images/2.gif);
+    background-repeat: repeat;
     position: relative;
     margin: 0px auto;
-    width: 400px;
-    height: 400px;
+    width: 358px;
+    height: 292px;
 }
 
 table {
