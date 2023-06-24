@@ -37,12 +37,8 @@ body {
     border-style: solid;
     border-width: medium;
     text-align: center;
-    align-content:center;
-    background-color: #7b6a6c;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    align-content: center;
+    margin-right: auto;
 }
 
 .content {
