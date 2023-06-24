@@ -27,16 +27,16 @@ input[type=text], input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background-color: aliceblue;
+    background-color:#f1f1f1;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-    background-color:aliceblue;
+    background-color: #ddd; 
     outline: none;
 }
 
 button {
-    background-color: azure;
+    background-color: #04AA6D;
     color: transparent;
     padding: 14px 20px;
     margin: 8px 0;
