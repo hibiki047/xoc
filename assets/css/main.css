@@ -116,6 +116,7 @@ table {
 .grid-ae {
     padding: 0 4px;
 }
+
 .grid-ae:hover img {
     outline: 2px solid var(--brightest-color);
 }
