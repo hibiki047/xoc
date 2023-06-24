@@ -147,38 +147,3 @@ h2 {
     opacity: 0.5;
     font-size: 12pt;
 }
-
-p.one {
-    border-style: solid;
-    border-width: 5px;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #5d9ab2;
-}
-
-#members {
-    font-family: sans-serif;
-    width: 100%;
-    border-collapse: collapse;
-}
-
-#members td, #members th {
-    font-size: 1.1em;
-    border: 1px solid #98bf21;
-    padding: 3px 7px 2px 7px;
-}
-
-#members th {
-    font-size: 1.1em;
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 4px;
-    background-color: #A7C942;
-    color:#ff990d;
-}
-
-#members tr.alt td {
-    color: #000000;
-    background-color: #EAF2D3;
-}
