@@ -68,6 +68,30 @@ table {
     margin-bottom: 10px;
 }
 
+.links {
+    margin-top: 30px;
+}
+
+.links tr>td:first-child {
+    padding: 0 1em 0 0;
+}
+
+.link {
+    color: var(--middle-color);
+    text-decoration: underline;
+    text-align: center !important;
+}
+
+.box {
+    border: var(--not-so-bright-color) solid 2px;
+    background: var(--not-so-dark-color);
+    padding: 1em;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 1em;
+}
+
 .grid-links {
     display: flex;
     padding: 0;
