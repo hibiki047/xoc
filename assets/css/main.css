@@ -1,6 +1,15 @@
-/* Color Font and Kebas */
+/* Font and Website design for Tamoe */
+
+/* Fonts */
+@font-face {
+    font-family: "Butterland";
+    src: url(../../assets/fonts/Butterland.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
+    --font:
     /* As color in the */
     --darkest-color: #3C4048;
     --not-so-dark-color: #202123;
