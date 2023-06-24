@@ -68,6 +68,23 @@ table {
     margin-bottom: 10px;
 }
 
+.grid-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 31px;
+    width: auto;
+}
+
+.grid-ae {
+    padding: 0 4px;
+}
+.grid-ae:hover img {
+    outline: 2px solid var(--brightest-color);
+}
+
 /* text format */
 
 h1 {
