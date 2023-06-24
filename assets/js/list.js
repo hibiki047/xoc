@@ -17,11 +17,11 @@ function generate_html_from_link(data) {
     //logo get(if any)
     if (data.logo) {
         row_title.innerText = "";
-        var row_title_logo = document.createElement("image");
+        var row_title_logo = document.createElement("img");
         row_title_logo.classList.add("link", "underline", "link-logo");
         row_title_logo.src = data.logo;
         row_title_logo.alt = data.description;
-        row_title_logo.title = "".concat(data.url, ": ").concat(data.description);
+        row_title_logo.title = `${data.url}: ${data.description}`;
         row_title.appendChild(row_title_logo);
     }
 
