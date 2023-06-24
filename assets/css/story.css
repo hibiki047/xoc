@@ -1,0 +1,61 @@
+/* font */
+
+@font-face {
+    font-family: Unifont9F;
+    src: url(../../assets/fonts/Unifont9F.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font: Butterland;
+
+    /* As color in the */
+    --darkest-color: #3C4048;
+    --not-so-dark-color: #202123;
+    --middle-color: #B2B2B2;
+    --not-so-bright-color: #F2E7D5;
+    --brightest-color: #F7F7F7;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--darkest-color);
+}
+
+/* Component */
+
+.content {
+    align-content: center;
+    text-align:center;
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+/* text format */
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue;
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.lowkey {
+    color: var(--middle-color);
+    opacity: 0.5;
+    font-size: 12pt;
+}
