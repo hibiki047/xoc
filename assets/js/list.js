@@ -29,7 +29,7 @@ function generate_html_from_link(data) {
     return content_row;
 }
 
-var general = document.getElementById("grid-general");
+var general = document.getElementById("grid-ae");
 
 for (var i = 0; i < links.length; i++) {
     general === null || general === void 0 ? void 0 : general.appendChild(generate_html_from_link(links[i]));
