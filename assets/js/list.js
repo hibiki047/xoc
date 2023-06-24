@@ -2,8 +2,8 @@ var links = [
     {
         url: "https://xoc.pages.dev/",
         description: "Database",
-        logo: "./assets/images/logo/tamoe.png"
-    }
+        logo: "./assets/images/logo/tamoe.png",
+    },
 ]
 
 function generate_html_from_link(data) {

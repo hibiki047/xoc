@@ -6,8 +6,8 @@ const links: Array<LogoData> = [
     {
         url: "https://xoc.pages.dev/",
         description: "Database",
-        logo: "./assets/images/logo/tamoe.png"
-    }
+        logo: "../../assets/images/logo/tamoe.png",
+    },
 ];
 
 function generate_html_from_link_info_ts(data: LogoData) {
@@ -35,6 +35,6 @@ function generate_html_from_link_info_ts(data: LogoData) {
 
 var general = document.getElementById("grid-general");
 
-for (var i = 0; i < links.length; i++) {
-    general === null || general === void 0 ? void 0 : general.appendChild(generate_html_from_link_info_ts(links[i]));
+for (let i = 0; i < links.length; i++) {
+    general?.appendChild(generate_html_from_link_info_ts(links[i]));
 }
