@@ -12,16 +12,25 @@
 
 :root {
     --font: Butterland;
+
+    /* As color in the */
+    --darkest-color: #3C4048;
+    --not-so-dark-color: #202123;
+    --middle-color: #B2B2B2;
+    --not-so-bright-color: #F2E7D5;
+    --brightest-color: #F7F7F7;
 }
 
 body {
     font-family: var(--font);
+    background-color: var(--darkest-color);
     background-image: url(https://cdn.discordapp.com/attachments/348377729793654785/1122047949334130739/656193a8db9e4a6d4ece715945da4caa.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0px auto;
     width: 100%;
     max-width: fit-content;
+    height: fit-content;
 }
 
 /*ok */
