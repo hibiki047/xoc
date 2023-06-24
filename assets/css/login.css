@@ -16,6 +16,7 @@
 
 body {
     font-family: var(--font);
+    background-image: url(https://cdn.discordapp.com/attachments/348377729793654785/1122047949334130739/656193a8db9e4a6d4ece715945da4caa.jpg);
 }
 
 /*ok */
@@ -26,7 +27,7 @@ input[type=text], input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background-image: url(https://cdn.discordapp.com/attachments/348377729793654785/1122047949334130739/656193a8db9e4a6d4ece715945da4caa.jpg);
+    background-color: aliceblue;
 }
 
 input[type=text]:focus, input[type=password]:focus {
